@@ -1,0 +1,14 @@
+{
+  "name": "same_service_name",
+  "artifactUrl": "http://same_url_to_jar",
+  "path": "path for hessian remoting service",
+  "username": "admin",
+  "password": "admin",
+  "services": [
+    {
+      "name": "AccountService",
+      "subPath": "account",
+      "targetType": "ru.example.same.service.name.ExampleAccountService"
+    }
+  ]
+}
